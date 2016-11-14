@@ -55,15 +55,16 @@ $('p').click(function(){
 
 
 // 8. Hide all images when one of them is clicked.
-$('img').click(function(){
-  $('img').hide();
-})
+// $('img').click(function(){
+//   $('img').hide();
+// })
 
 
 
 // 9. When the user clicks onto the image, toggle the paragraphs between hide and show.
-
-
+$('img').click(function(){
+  $('p').toggle(1000);
+})
 
 
 
